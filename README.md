@@ -5,10 +5,10 @@ Presented by Stephen Simmons (mail@stevesimmons.com)
 
 
 
-### Tutorial contents
+## Tutorial contents
 
 This is meant for all levels of Python/Pandas users:
-accessible to beginners; new insights for experienced users.
+accessible to beginners plus some new insights for experienced users.
 
 #### Part I - Pandas from the Inside
 
@@ -20,7 +20,7 @@ looking inside Pandas Series, DataFrames and other objects to discover
 what really happens.
 
 We will see that many Pandas operations are essentially function calls on numpy arrays. 
-Our Pandas code -- if we do it right -- can benefit from the full speed of numpy's 
+Our Pandas code, if we do it right, can benefit from the full speed of numpy's 
 highly optimized C routines. Equally, if we do it wrong, our Pandas code
 can be 1000x slower.
 
@@ -29,7 +29,7 @@ If you aren't familiar with Aussie Rules, watch this 9 minute
 [introduction](https://youtu.be/zxhqXzVBen4).
 
     
-#### Part II - "Big Pandas" 
+#### Part II - Dask from the Inside - "Big Pandas" 
 
 This second part looks at Pandas analysis when our data sets can't fit in local memory. 
 The examples here use the _On-Time_ domestic flight arrival/departure data 
@@ -49,18 +49,18 @@ Through seeing how Dask works "from the inside", we can make better architectura
 decisions on local versus distributed data processing.
 
 
-### Before the tutorial
+## Before the tutorial
 
 #### Python packages
 
 If you want to follow along the examples on your own laptop, please 
 have the latest versions of Python3, Pandas, Jupyter and IPython installed.
-The second part on Dask will need Dask and graphviz.
+Part II will need Dask and optionally graphviz to visualize Dask dependency graphs.
 
 If you don't have Python already, the easiest route is via the full Anaconda 
 Python distribution (300MB). Details are at <http://conda.pydata.org/docs/installation.html>. 
-Alternatively you can download the "miniconda" version and install 
-just the packages you need.
+Alternatively download the "miniconda" version and install just the packages you need.
+
 
 #### Tutorial files
 
@@ -87,20 +87,18 @@ Otherwise you can view the rendered notebook here on GitHub.
 A copy is included in this repo for your convenience.
 
 
-### About the presenter
+## About the presenter
 
 Stephen Simmons has been programming in Python since 2000. He works at JPMorgan 
 in London, where he leads the Precious Metals technology team, building 
 trading and risk applications in JPMorgan's Python environment, Athena. 
 
-Stephen previously worked in the credit card businesses of ABN AMRO in 
-Amsterdam and ANZ Bank in Melbourne, where he ran functions including Operations, 
-Credit Risk, Cross-Sell, Portfolio Management, MIS and Strategy.
+Stephen previously worked in the credit card businesses of ABN AMRO in Amsterdam and ANZ Bank in Melbourne. 
+At ABN AMRO, he ran Operations, Credit Risk, MIS and Strategy. 
+At ANZ, he had management team reponsibility for Cross-Sell and Portfolio Management.
 
 He started his career as a radar engineer at Australia's Defence Science and 
 Technology Organisation and was then a management consultant with 
 the Boston Consulting Group.
 
-His education includes an MBA from INSEAD, and PhD, BSc and BEng from Melbourne University.
-
- 
+His education includes an MBA from INSEAD, and PhD, BSc and BEng from Melbourne University. 
