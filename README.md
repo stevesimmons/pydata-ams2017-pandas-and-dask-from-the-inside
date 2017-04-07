@@ -41,10 +41,9 @@ dataset started in December 1987 and currently has details on
 a 220MB csv file, zipped to 23MB, covering the 450,000 or so 
 flights by major US carriers.
 
-We try three approaches to process this csv data:
+We try two approaches to process this csv data:
 * Plain Pandas, which quickly runs out of memory.
 * Dask, whose distributed/deferred DataFrames are a near drop-in replacement for Pandas.
-* Pandas with local storage carefully tailored to the data at hand.
 
 Through seeing how Dask works "from the inside", we can make better architectural
 decisions on local versus distributed data processing.
@@ -73,12 +72,14 @@ If you just want to follow along the tutorial slides, download just the PDFs.
 Please update your local copies on the morning of the tutorial to make 
 sure your version matches the final ones I am presenting. 
 
-The main files are:
+The main files for Part I are:
 
-* `pfi.pdf` or `pfi.pptx`- Presentation slides. As some slides are quite detailed,
-you may want to download these to follow along on your own laptop/tablet.
+* `slides-1-pandas-from-the-inside.pdf` or `slides-1-pandas-from-the-inside.pdf`- Presentation slides. 
+As some slides are quite detailed, you may want to download these to 
+follow along on your own laptop/tablet.
 
-* `pfi.ipynb` - Jupyter notebook with code from the slides plus some further explanation. 
+* `pandas-from-the-inside.ipynb` - Jupyter notebook 
+with code from the slides plus some further explanation. 
 Download this if you have Jupyter installed on your laptop. 
 Otherwise you can view the rendered notebook here on GitHub.
 
@@ -87,19 +88,21 @@ Otherwise you can view the rendered notebook here on GitHub.
 * `bg3.txt` - Sample data file from http://afltables.com/afl/stats/biglists/bg3.txt. 
 A copy is included in this repo for your convenience.
 
+The main files for Part II are:
+
+
+* `slides-2-dask-big-pandas.pdf` or `slides-2-dask-big-pandas.pdf`- 
+* `nb0-imports.ipynb`
+* `nb1-setup.ipynb`
+* `nb2-preparing-sample-data.ipynb`
+* `nb3-pandas-with-large-csvs.ipynb`
+* `nb4-parquet.ipynb`
+* `nb5-dask-graphs.ipynb`
+
+
 
 ## About the presenter
 
 Stephen Simmons has been programming in Python since 2000. He works at JPMorgan 
 in London, where he leads the Precious Metals technology team, building 
 trading and risk applications in JPMorgan's Python environment, Athena. 
-
-Stephen previously worked in the credit card businesses of ABN AMRO in Amsterdam and ANZ Bank in Melbourne. 
-At ABN AMRO, he ran Operations, Credit Risk, MIS and Strategy. 
-At ANZ, he had management team responsibility for Cross-Sell and Portfolio Management.
-
-He started his career as a radar engineer at Australia's Defence Science and 
-Technology Organisation and was then a management consultant with 
-the Boston Consulting Group.
-
-His education includes an MBA from INSEAD, and PhD, BSc and BEng from Melbourne University. 
