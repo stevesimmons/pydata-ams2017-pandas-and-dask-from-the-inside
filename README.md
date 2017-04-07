@@ -1,7 +1,8 @@
 # Pandas and Dask from the Inside
 
 Tutorial session from PyData Amsterdam, Friday 7 April 2017.  
-Presented by Stephen Simmons (mail@stevesimmons.com)
+Presented by Stephen Simmons (mail@stevesimmons.com).  
+GitHub repo: <https://github.com/stevesimmons/pydata-ams2017-pandas-and-dask-from-the-inside>
 
 
 
@@ -95,7 +96,7 @@ trading and risk applications in JPMorgan's Python environment, Athena.
 
 Stephen previously worked in the credit card businesses of ABN AMRO in Amsterdam and ANZ Bank in Melbourne. 
 At ABN AMRO, he ran Operations, Credit Risk, MIS and Strategy. 
-At ANZ, he had management team reponsibility for Cross-Sell and Portfolio Management.
+At ANZ, he had management team responsibility for Cross-Sell and Portfolio Management.
 
 He started his career as a radar engineer at Australia's Defence Science and 
 Technology Organisation and was then a management consultant with 
