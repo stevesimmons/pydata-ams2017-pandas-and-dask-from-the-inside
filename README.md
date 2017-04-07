@@ -92,12 +92,15 @@ The main files for Part II are:
 
 
 * `slides-2-dask-big-pandas.pdf` or `slides-2-dask-big-pandas.pdf`- 
-* `nb0-imports.ipynb`
 * `nb1-setup.ipynb`
 * `nb2-preparing-sample-data.ipynb`
 * `nb3-pandas-with-large-csvs.ipynb`
 * `nb4-parquet.ipynb`
 * `nb5-dask-graphs.ipynb`
+
+Prepared sample data is available here:
+* http://www.stevesimmons.com/pydata-ams2017/flights-201601-201701-csv-xz.tar (151MB)
+* http://www.stevesimmons.com/pydata-ams2017/flights-201601-201701-parq.tar (158MB)
 
 
 
